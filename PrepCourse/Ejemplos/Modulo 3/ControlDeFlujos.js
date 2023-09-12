@@ -7,7 +7,6 @@ function Viajar (Destino) {
         console.log ("Te Cagaste Perdiendo");
     }
 }
-
 Viajar ("Brasil");
 Viajar ("Argentina");
 Viajar ("Uruguay");
