@@ -25,8 +25,6 @@ var countArray = function(array) {
     }
     return suma;
 }
-
-
 // Implementar la función countProps: a partir de un objeto en el cual cada propiedad puede contener
 // cualquier tipo de dato, determinar la cantidad de propiedades de objetos en cualquier nivel, ya sea el inicial
 // u objetos anidados
@@ -61,7 +59,6 @@ var countProps = function(obj) {
     return contador;
 }
 
-
 // Implementar el método changeNotNumbers dentro del prototype de LinkedList que deberá cambiar
 // aquellos valores que no puedan castearse a numeros por 'Kiricocho' y devolver la cantidad de cambios que hizo
 // Aclaracion: si el valor del nodo puede castearse a número NO hay que reemplazarlo
@@ -90,7 +87,6 @@ LinkedList.prototype.changeNotNumbers = function(){
     return contador;
 }
 
-
 // Implementar la función mergeQueues que a partir de dos queues recibidas por parametro
 // debe devolver una nueva Queue que vaya mergeando los nodos de las anteriores.
 // Ejemplo:
@@ -112,7 +108,6 @@ var mergeQueues = function(queueOne, queueTwo) {
     return NewQueue;
 }
 
-
 // Implementar la funcion closureMult que permita generar nuevas funciones que representen
 // las tablas de multiplicación de distintos numeros
 // Ejemplo: 
@@ -131,6 +126,7 @@ var closureMult = function(multiplier) {
 
 // Implementar el método sum dentro del prototype de BinarySearchTree
 // que debe retornar la suma total de los valores dentro de cada nodo del arbol
+
 BinarySearchTree.prototype.sum = function() {
     // Tu código aca:
     if(!this.left && !this.right) return this.value
