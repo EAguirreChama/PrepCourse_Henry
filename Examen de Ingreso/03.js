@@ -31,9 +31,5 @@ function EsPrimo(N) {
   }
   return true;
 }
-
-  
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = sumaTodosPrimos
