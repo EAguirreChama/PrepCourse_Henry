@@ -31,7 +31,5 @@ function sumArray(array, n) {
   }
   return false;
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = sumArray
