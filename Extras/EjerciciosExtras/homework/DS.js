@@ -86,7 +86,6 @@ function BinarySearchTree(valor) {
 }
 
 BinarySearchTree.prototype.insert = function(value) {
-
   if(value < this.value){
     if(this.left === null){
       var newTree = new BinarySearchTree(value);
@@ -108,22 +107,17 @@ BinarySearchTree.prototype.size = function() {
   if(this.value === null){
     return 0;
   }
-
   if(this.left === null && this.right === null){
     return 1;
   }
-
   if(this.left === null){
     return 1 + this.right.size();
   }
-
   if(this.right === null){
     return 1 + this.left.size();
   }
-
   return 1 + this.left.size() + this.right.size();
 }
-
 
 module.exports = {
   Queue,
