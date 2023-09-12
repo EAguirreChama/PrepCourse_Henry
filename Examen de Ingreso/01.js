@@ -20,17 +20,15 @@ let ArrayNuevo = [0,0];
 
 for (let i = 0; i< numeros.length; i++){ 
  if (numeros[i] < NumMenor){
- NumMenor = numeros[i];
- ArrayNuevo[0] = NumMenor;  
+   NumMenor = numeros[i];
+   ArrayNuevo[0] = NumMenor;  
  }
  if (numeros[i] > NumMayor){
- NumMayor = numeros[i];
- ArrayNuevo[1] = NumMayor;
+   NumMayor = numeros[i];
+   ArrayNuevo[1] = NumMayor;
  }
 }
-return ArrayNuevo;
+  return ArrayNuevo;
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = mayorMenor
