@@ -34,7 +34,5 @@ function filtrar(funcion) {
     return Filtrados;
   }
 };
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = filtrar
