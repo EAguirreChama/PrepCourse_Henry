@@ -19,10 +19,7 @@ function agregaPropiedad(amigos, propiedad) {
         item[propiedad] = null; 
     }
   })
-  
   return amigos;
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = agregaPropiedad
