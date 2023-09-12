@@ -85,10 +85,7 @@ function crearClaseViajero() {
       return EdadTotal / this.compañeros.length;
     }
   };
-
   return Viajero;
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = crearClaseViajero
