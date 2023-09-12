@@ -16,7 +16,5 @@ function pluck(array, propiedad) {
   // Tu código acá:
   return array.map(function(elemento){return elemento[propiedad]});
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = pluck
