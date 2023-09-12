@@ -23,8 +23,5 @@ function soloNumeros(array) {
   }
   return arrayResultante;
 }
-
 // No modifiques nada debajo de esta linea //
-
-
 module.exports = soloNumeros
