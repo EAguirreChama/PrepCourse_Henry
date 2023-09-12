@@ -22,7 +22,5 @@ function buscarAmigo(amigos, nombre) {
   }
   return AmigoEncontrado;
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = buscarAmigo
