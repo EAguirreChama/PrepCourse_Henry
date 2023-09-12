@@ -15,7 +15,6 @@ function crearClasePersona() {
       this.edad = edad;
       this.hobbies = hobbies;
       this.amigos = amigos;
-
     }
 
     addFriend(nombre, edad) {
@@ -26,9 +25,8 @@ function crearClasePersona() {
       // Tu código aca:
       let amigo = {nombre: nombre, edad: edad}
       this.amigos.push(amigo);
-
     }
-
+  
     addHobby(hobby) {
       // El método 'addHobby' recibe un string 'hobby' y debe agregarlo al arreglo de hobbies de la persona.
       // No debe retornar nada.
@@ -84,10 +82,7 @@ function crearClasePersona() {
       return EdadesTotal / this.amigos.length;
     }
   };
-
   return Persona;
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = crearClasePersona
