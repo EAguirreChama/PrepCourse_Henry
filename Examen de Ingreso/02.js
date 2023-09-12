@@ -21,7 +21,5 @@ function mismaCantidadCaracteres(strings, caracteres) {
   }
   return ArrayStrings;
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = mismaCantidadCaracteres
