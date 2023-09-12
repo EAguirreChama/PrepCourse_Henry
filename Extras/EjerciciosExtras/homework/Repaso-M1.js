@@ -57,7 +57,7 @@ var countProps = function(obj) {
         }
     }
     return contador;
-}
+};
 
 // Implementar el método changeNotNumbers dentro del prototype de LinkedList que deberá cambiar
 // aquellos valores que no puedan castearse a numeros por 'Kiricocho' y devolver la cantidad de cambios que hizo
@@ -85,7 +85,7 @@ LinkedList.prototype.changeNotNumbers = function(){
         current = current.next 
     }
     return contador;
-}
+};
 
 // Implementar la función mergeQueues que a partir de dos queues recibidas por parametro
 // debe devolver una nueva Queue que vaya mergeando los nodos de las anteriores.
@@ -106,7 +106,7 @@ var mergeQueues = function(queueOne, queueTwo) {
         if (secondQueue) NewQueue.enqueue(secondQueue)
     }
     return NewQueue;
-}
+};
 
 // Implementar la funcion closureMult que permita generar nuevas funciones que representen
 // las tablas de multiplicación de distintos numeros
@@ -140,4 +140,4 @@ module.exports = {
     countProps,
     mergeQueues,
     closureMult
-}
+};
