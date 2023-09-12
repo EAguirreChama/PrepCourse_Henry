@@ -20,7 +20,5 @@ function stringMasLarga(strings) {
   }
   return MasLarga;
 }
-
 // No modifiques nada debajo de esta linea //
-
 module.exports = stringMasLarga
