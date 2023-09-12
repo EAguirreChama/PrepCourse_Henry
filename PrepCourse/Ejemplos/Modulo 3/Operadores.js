@@ -6,8 +6,8 @@ console.log (95 % 4);
 console.log (3 + 5 * 2 - 8);
 console.log ((3 + 5) * 2 - 8);
 
-console.log ( "Hola "  +  "Camilo");
+console.log ( "Hola "  +  "Camilo")
 
-var nombre = "Camilo";
-var saludo = "Hola " + nombre;
+var nombre = "Camilo"
+var saludo = "Hola " + nombre
 console.log (saludo);
